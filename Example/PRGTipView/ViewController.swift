@@ -41,6 +41,9 @@ class ViewController: UIViewController {
     config.buttonText = "OK"
     config.buttonWidth = 132
     config.buttonBackgroundColor = .blue
+    config.buttonCornerRadius = 4
+    config.buttonContentHorizontalAlignment = .center
+    config.backgroundBlurEffect = .dark
     config.detailAlignment = .center
     config.focusDistance = 20
     config.focusView = sender

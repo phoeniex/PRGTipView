@@ -36,12 +36,18 @@ public class PRGTipViewConfiguration {
   public var buttonTextColor: UIColor = .white
   /// The color of the Tip View dismissal button
   public var buttonBackgroundColor: UIColor = .clear
+  /// The alignment of content in dismissal button
+  public var buttonContentHorizontalAlignment: UIControl.ContentHorizontalAlignment = .left
   /// The width of dismissal button, nil for spread to full width
   public var buttonWidth: CGFloat? = nil
   /// The width of dismissal button, nil for default height
   public var buttonHeight: CGFloat? = nil
+  /// The corner radius of dismissal button
+  public var buttonCornerRadius: CGFloat = 0
   /// The attributed string to be shown as the Tip View dismissal title. If set, it overrides "buttonText", "buttonTextFont" and "buttonTextColor" properties
   public var attributedButtonText: NSAttributedString?
+  /// The blur effect on background, set nil for disable the blur
+  public var backgroundBlurEffect: UIBlurEffect.Style?
   /// The background color of the Tip View
   public var backgroundColor: UIColor = .black
   /// The background alpha of the Tip View

@@ -38,8 +38,6 @@ public class PRGTipView: UIViewController {
   
   private let button: UIButton = {
     let btn = UIButton()
-    btn.contentHorizontalAlignment = .left
-    btn.backgroundColor = UIColor(white: 1, alpha: 0)
     btn.addTarget(self, action: #selector(btnTapped(_:)), for: .touchUpInside)
     return btn
   }()
@@ -56,6 +54,7 @@ public class PRGTipView: UIViewController {
     self.overlayView = PRGAnimatableMaskedView(
       frame: UIScreen.main.bounds,
       backgroundColor: configuration.backgroundColor.withAlphaComponent(configuration.backgroundAlpha),
+      blurEffect: configuration.backgroundBlurEffect,
       maskFrame: focusRect,
       inset: configuration.focusInsets,
       isCircular: configuration.circularFocus,
@@ -141,6 +140,9 @@ public class PRGTipView: UIViewController {
     button.setTitleColor(configuration.buttonTextColor, for: .normal)
     button.titleLabel?.font = configuration.buttonTextFont
     button.backgroundColor = configuration.buttonBackgroundColor
+    button.contentHorizontalAlignment = configuration.buttonContentHorizontalAlignment
+    button.layer.cornerRadius = configuration.buttonCornerRadius
+    button.layer.masksToBounds = true
     
     if let attrButton = configuration.attributedButtonText {
       button.setAttributedTitle(attrButton, for: .normal)
