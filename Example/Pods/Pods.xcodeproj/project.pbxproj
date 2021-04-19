@@ -7,40 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0741A8A8A05B31445B794E3E9FE98B3F /* PRGTipViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47505A85DC4E13197D53E67BC27EAF0 /* PRGTipViewConfiguration.swift */; };
-		2BCBDFEE39B881CA21311CB036514281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		45B863C8A98E856CF4B909538894B467 /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1728D6EDB3761A4C04F4D11C80DC3 /* Pulse.swift */; };
-		720F055B1834C0241C623FF9E376FB8C /* PulseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E4C6E574443DBF05241C72737E7DBF /* PulseLayer.swift */; };
-		76BA8B0B7899333DEF02026E0286DDD8 /* PRGAnimatableMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D7A8B2AFE82F1753CF6AB8AE283EC7 /* PRGAnimatableMaskView.swift */; };
-		852FC2D40893E4710C4392A89091A545 /* AnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E8B14772B6E41C6229011E88DCD79 /* AnimationDelegate.swift */; };
-		906D8FF9FBF97D31519DDFC7BD5D81FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		98885BD2945199385F62CAA9BF48F5AA /* Pods-PRGTipView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32517AAD6FF92AB809D4825D6E1BFED5 /* Pods-PRGTipView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B7B5A982CE772C484D75E418F964F6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		BCA166307A526C6CF27568C1A04C662C /* Pods-PRGTipView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC55062F80FD5BBB1D2A3D557271AF5 /* Pods-PRGTipView_Tests-dummy.m */; };
-		C40FC4D401505EA1AF6BC992AC2782C4 /* Pods-PRGTipView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3331FABF9A51FDF49DDA65E52D879B77 /* Pods-PRGTipView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4790281BD7A09A6932CABF1271BC06C /* Pods-PRGTipView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFE77FF68BC95E42DE54B94A1231C29 /* Pods-PRGTipView_Example-dummy.m */; };
-		CF6572E791F36334D1C1F228C2743DDE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		D37D8A76C39248EDC200F325966D056B /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC1503AD3AB06E710A687C7F077003 /* CALayer+Extensions.swift */; };
-		D37F4F3D8FEC19DAD02CF4470EDCF2EA /* PRGTipView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA164F40DEAAC0A269100D471C0DAF3 /* PRGTipView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4691DF3C875DF257D7E101AA1F51BC9 /* PRGTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE14C15A32605B5A3C4B3C74758E057 /* PRGTipView.swift */; };
-		EA9F29251A8ED8DF2DF48AC398F55431 /* PRGTipView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 274EE20D27CA830D47F3BCE95989DD87 /* PRGTipView-dummy.m */; };
-		FBE630564BB84F1E875E2CFBF9FCE64F /* ApplicationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCBFA9AE668A1CE5E603A035BD1C8E5 /* ApplicationObserver.swift */; };
+		1BAD51440B3D1294B93973FA5ADAC424 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2612FD8F07E3FAE815E12F69E4FD2D25 /* PRGTipView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 274EE20D27CA830D47F3BCE95989DD87 /* PRGTipView-dummy.m */; };
+		2C1D2935E46A8DFB94A119736B3F289F /* ApplicationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCBFA9AE668A1CE5E603A035BD1C8E5 /* ApplicationObserver.swift */; };
+		4D5FCED99409B8AAD7646CA7F65724D0 /* PRGTipView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EA164F40DEAAC0A269100D471C0DAF3 /* PRGTipView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F0566D1F24940AF4368327E14B839F9 /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC1503AD3AB06E710A687C7F077003 /* CALayer+Extensions.swift */; };
+		66CB5FCDF5704770D0B26CF41BC620E3 /* PRGAnimatableMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D7A8B2AFE82F1753CF6AB8AE283EC7 /* PRGAnimatableMaskView.swift */; };
+		6E4FA30B49D6279185D1958C969E1410 /* AnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424E8B14772B6E41C6229011E88DCD79 /* AnimationDelegate.swift */; };
+		7CE4FDF08EE80034ABC0D8FAEAC18635 /* PRGTipViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47505A85DC4E13197D53E67BC27EAF0 /* PRGTipViewConfiguration.swift */; };
+		8D49BECCCA1C90CF2F2C23802325ECF4 /* Pods-PRGTipView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC55062F80FD5BBB1D2A3D557271AF5 /* Pods-PRGTipView_Tests-dummy.m */; };
+		A102CD37CC68DFFA54D5872722DC2F52 /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1728D6EDB3761A4C04F4D11C80DC3 /* Pulse.swift */; };
+		B9495B110738B8588AC86E034FEE2814 /* Pods-PRGTipView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CFE77FF68BC95E42DE54B94A1231C29 /* Pods-PRGTipView_Example-dummy.m */; };
+		C999BD5DC429F43FB57B392F0E38866B /* Pods-PRGTipView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32517AAD6FF92AB809D4825D6E1BFED5 /* Pods-PRGTipView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D31FDF45CF11B0D220851024D7F3AE5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D3D93DD384E521ECB43A4B682EC146D1 /* PulseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E4C6E574443DBF05241C72737E7DBF /* PulseLayer.swift */; };
+		ECF7186AD10CBB83D2C80894D6D70D48 /* PRGTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE14C15A32605B5A3C4B3C74758E057 /* PRGTipView.swift */; };
+		F72B21C02543EFF93083E9BE32144022 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FFA282092F90F99C359B4A443C545453 /* Pods-PRGTipView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3331FABF9A51FDF49DDA65E52D879B77 /* Pods-PRGTipView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		26FBB3991ACDEFA8313311DA7D3680BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8514FC466B5B9BB89AB70702905B76C1;
-			remoteInfo = PRGTipView;
-		};
-		B9825DDDA5E1BCD8BCFB9F7EC695452C /* PBXContainerItemProxy */ = {
+		49105A4F69CCEFE4B1C8C06F4F329C12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BE1D415EE88EF5A76DFC866BD459CB56;
 			remoteInfo = "Pods-PRGTipView_Example";
+		};
+		58B5D7B668A1838FA8E5764A3D9A087A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8514FC466B5B9BB89AB70702905B76C1;
+			remoteInfo = PRGTipView;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,7 +50,6 @@
 		1F88D9B2AEA99704C5CF39BA04295282 /* PRGTipView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PRGTipView.modulemap; sourceTree = "<group>"; };
 		274EE20D27CA830D47F3BCE95989DD87 /* PRGTipView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PRGTipView-dummy.m"; sourceTree = "<group>"; };
 		2F58F8EA687D39FFBE4F6AB2C0AA46AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		32517AAD6FF92AB809D4825D6E1BFED5 /* Pods-PRGTipView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PRGTipView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3331FABF9A51FDF49DDA65E52D879B77 /* Pods-PRGTipView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PRGTipView_Example-umbrella.h"; sourceTree = "<group>"; };
 		33C426A5FA9D239DBFFCD90A25AFF791 /* Pods-PRGTipView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PRGTipView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 		3AC5EF93CF9DD267112335CBDEC2C850 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3E9542F27A703E18229DF51472862790 /* Pods-PRGTipView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PRGTipView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		424E8B14772B6E41C6229011E88DCD79 /* AnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationDelegate.swift; sourceTree = "<group>"; };
-		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4BCBFA9AE668A1CE5E603A035BD1C8E5 /* ApplicationObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ApplicationObserver.swift; sourceTree = "<group>"; };
 		4EA164F40DEAAC0A269100D471C0DAF3 /* PRGTipView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRGTipView-umbrella.h"; sourceTree = "<group>"; };
 		52B41F66AAF74ED297A14BC845B3CE05 /* PRGTipView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRGTipView.release.xcconfig; sourceTree = "<group>"; };
@@ -68,6 +65,7 @@
 		665BB11C66DDD77FE5EA7A8292DBA490 /* Pods-PRGTipView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRGTipView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6A4DC4D503944EB189FB72E156C8256F /* Pods-PRGTipView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PRGTipView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6BBA6B65012944F97C88669F7949C5C7 /* PRGTipView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRGTipView-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7BE2C1E5B2EC9737D4CAC42DF641C4CE /* Pods-PRGTipView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PRGTipView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		90618F61FDAE2ECF3AA500D1982051BF /* PRGTipView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRGTipView.debug.xcconfig; sourceTree = "<group>"; };
 		987AE418BEB93FD765C4226C3CEAEC96 /* PRGTipView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PRGTipView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -89,48 +87,47 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B112E00FC07C17F07BB2C19FCE3E88C /* Frameworks */ = {
+		33830B0AD5CC3A0E5E901CC19D3A1834 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				906D8FF9FBF97D31519DDFC7BD5D81FE /* Foundation.framework in Frameworks */,
-				CF6572E791F36334D1C1F228C2743DDE /* UIKit.framework in Frameworks */,
+				1BAD51440B3D1294B93973FA5ADAC424 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		891D4B86EC661BD4F2EFEF1AF618DDE9 /* Frameworks */ = {
+		D3B598DCA3611F7654C0425C826F3092 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BCBDFEE39B881CA21311CB036514281 /* Foundation.framework in Frameworks */,
+				F72B21C02543EFF93083E9BE32144022 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92ED6495960CB3B592FDF6AFE09CEF8D /* Frameworks */ = {
+		EF7019ACAB2BEB80DC0D72CCCF557C1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B7B5A982CE772C484D75E418F964F6C /* Foundation.framework in Frameworks */,
+				D31FDF45CF11B0D220851024D7F3AE5F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3F32A6CDCE01C478A219ABF774F6FFDC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				8FC235C3FD904A6A7DE9960C9FC2B467 /* PRGTipView */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		70EE45A586A4BD5C51851988FB03E3C6 /* Support Files */ = {
@@ -202,7 +199,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				3F32A6CDCE01C478A219ABF774F6FFDC /* Development Pods */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				AD01C07DE227CA1C8A0A3C32EA2DCE77 /* Products */,
 				9B0EA0A469FF6B797E9CB7CBE024E8FE /* Targets Support Files */,
 			);
@@ -221,13 +218,12 @@
 			path = PRGTipView/Classes/Pulsar;
 			sourceTree = "<group>";
 		};
-		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
-				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E58BE4149CC6FEDA2D33236873B3265F /* Pods-PRGTipView_Example */ = {
@@ -260,27 +256,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18C10F4C9C57FE64828362C686F43176 /* Headers */ = {
+		BE2F6220D3C4F2513C82B168A3E7F15B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98885BD2945199385F62CAA9BF48F5AA /* Pods-PRGTipView_Tests-umbrella.h in Headers */,
+				FFA282092F90F99C359B4A443C545453 /* Pods-PRGTipView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7534CDBBAA0477912A24AEE18A72118E /* Headers */ = {
+		C8D145E1F5528E8D998CADA18A9FA3E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40FC4D401505EA1AF6BC992AC2782C4 /* Pods-PRGTipView_Example-umbrella.h in Headers */,
+				C999BD5DC429F43FB57B392F0E38866B /* Pods-PRGTipView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FA5A5EC992A19ECC938C112A3D2E10C3 /* Headers */ = {
+		C9F525A64399C34F7C81C2B3895852BD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D37F4F3D8FEC19DAD02CF4470EDCF2EA /* PRGTipView-umbrella.h in Headers */,
+				4D5FCED99409B8AAD7646CA7F65724D0 /* PRGTipView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,17 +285,17 @@
 /* Begin PBXNativeTarget section */
 		1283A8BBCD3881226BFCDE6F6F0613F4 /* Pods-PRGTipView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E411CAE103D1867FB94FB5D826CAB369 /* Build configuration list for PBXNativeTarget "Pods-PRGTipView_Tests" */;
+			buildConfigurationList = F80F4C56ED315F9FF6C4B6F0DB352A65 /* Build configuration list for PBXNativeTarget "Pods-PRGTipView_Tests" */;
 			buildPhases = (
-				18C10F4C9C57FE64828362C686F43176 /* Headers */,
-				147D1A75EB51186D200F6F54AD72C20E /* Sources */,
-				92ED6495960CB3B592FDF6AFE09CEF8D /* Frameworks */,
-				53F3BE069C8CDE7D617F098942D7B535 /* Resources */,
+				C8D145E1F5528E8D998CADA18A9FA3E4 /* Headers */,
+				295B7C89C68CC0A826E82907A7B4D04F /* Sources */,
+				D3B598DCA3611F7654C0425C826F3092 /* Frameworks */,
+				B4772031C3A4B2B436F9DF66C998CE4F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F81C853A029B6A84FCC31497ED417493 /* PBXTargetDependency */,
+				BBEB6BFB84414B70F9BBE8F8F937D9B5 /* PBXTargetDependency */,
 			);
 			name = "Pods-PRGTipView_Tests";
 			productName = "Pods-PRGTipView_Tests";
@@ -308,12 +304,12 @@
 		};
 		8514FC466B5B9BB89AB70702905B76C1 /* PRGTipView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 614DA4EE7534DEE42853FA3CA59DFCAA /* Build configuration list for PBXNativeTarget "PRGTipView" */;
+			buildConfigurationList = 4A53B7595AA93143C639F6A6EBE6B9FA /* Build configuration list for PBXNativeTarget "PRGTipView" */;
 			buildPhases = (
-				FA5A5EC992A19ECC938C112A3D2E10C3 /* Headers */,
-				BD93CD788299BF7D391CA81463F693E9 /* Sources */,
-				2B112E00FC07C17F07BB2C19FCE3E88C /* Frameworks */,
-				F8A6CA3D1EDB5170B9B8D440E92E6DDF /* Resources */,
+				C9F525A64399C34F7C81C2B3895852BD /* Headers */,
+				0DECEE4E9D0F5287A99C23F5B61C0AA6 /* Sources */,
+				EF7019ACAB2BEB80DC0D72CCCF557C1F /* Frameworks */,
+				A362128200CD54AC8A7C6D0440FD8784 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -326,17 +322,17 @@
 		};
 		BE1D415EE88EF5A76DFC866BD459CB56 /* Pods-PRGTipView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6513B08EB8088D8DB1126454B333FE0E /* Build configuration list for PBXNativeTarget "Pods-PRGTipView_Example" */;
+			buildConfigurationList = 9789921036452384D794A3DB15E6EEA4 /* Build configuration list for PBXNativeTarget "Pods-PRGTipView_Example" */;
 			buildPhases = (
-				7534CDBBAA0477912A24AEE18A72118E /* Headers */,
-				6018CD0C97183C0EBFB4A844099A763F /* Sources */,
-				891D4B86EC661BD4F2EFEF1AF618DDE9 /* Frameworks */,
-				A4318BA9B8C2E0534CA8801DDA2B55D7 /* Resources */,
+				BE2F6220D3C4F2513C82B168A3E7F15B /* Headers */,
+				A8E60E7AA95F283786378D2D197A06F6 /* Sources */,
+				33830B0AD5CC3A0E5E901CC19D3A1834 /* Frameworks */,
+				893EDB2A27F5EA101D0F7C583B5F1F84 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				42791D4B5F080ACFD04DF44CED211F5A /* PBXTargetDependency */,
+				0C0BD9AFCC245053CCEA75862563D934 /* PBXTargetDependency */,
 			);
 			name = "Pods-PRGTipView_Example";
 			productName = "Pods-PRGTipView_Example";
@@ -373,21 +369,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		53F3BE069C8CDE7D617F098942D7B535 /* Resources */ = {
+		893EDB2A27F5EA101D0F7C583B5F1F84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4318BA9B8C2E0534CA8801DDA2B55D7 /* Resources */ = {
+		A362128200CD54AC8A7C6D0440FD8784 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8A6CA3D1EDB5170B9B8D440E92E6DDF /* Resources */ = {
+		B4772031C3A4B2B436F9DF66C998CE4F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,62 +393,94 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		147D1A75EB51186D200F6F54AD72C20E /* Sources */ = {
+		0DECEE4E9D0F5287A99C23F5B61C0AA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA166307A526C6CF27568C1A04C662C /* Pods-PRGTipView_Tests-dummy.m in Sources */,
+				6E4FA30B49D6279185D1958C969E1410 /* AnimationDelegate.swift in Sources */,
+				2C1D2935E46A8DFB94A119736B3F289F /* ApplicationObserver.swift in Sources */,
+				5F0566D1F24940AF4368327E14B839F9 /* CALayer+Extensions.swift in Sources */,
+				66CB5FCDF5704770D0B26CF41BC620E3 /* PRGAnimatableMaskView.swift in Sources */,
+				2612FD8F07E3FAE815E12F69E4FD2D25 /* PRGTipView-dummy.m in Sources */,
+				ECF7186AD10CBB83D2C80894D6D70D48 /* PRGTipView.swift in Sources */,
+				7CE4FDF08EE80034ABC0D8FAEAC18635 /* PRGTipViewConfiguration.swift in Sources */,
+				A102CD37CC68DFFA54D5872722DC2F52 /* Pulse.swift in Sources */,
+				D3D93DD384E521ECB43A4B682EC146D1 /* PulseLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6018CD0C97183C0EBFB4A844099A763F /* Sources */ = {
+		295B7C89C68CC0A826E82907A7B4D04F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4790281BD7A09A6932CABF1271BC06C /* Pods-PRGTipView_Example-dummy.m in Sources */,
+				8D49BECCCA1C90CF2F2C23802325ECF4 /* Pods-PRGTipView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD93CD788299BF7D391CA81463F693E9 /* Sources */ = {
+		A8E60E7AA95F283786378D2D197A06F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				852FC2D40893E4710C4392A89091A545 /* AnimationDelegate.swift in Sources */,
-				FBE630564BB84F1E875E2CFBF9FCE64F /* ApplicationObserver.swift in Sources */,
-				D37D8A76C39248EDC200F325966D056B /* CALayer+Extensions.swift in Sources */,
-				76BA8B0B7899333DEF02026E0286DDD8 /* PRGAnimatableMaskView.swift in Sources */,
-				EA9F29251A8ED8DF2DF48AC398F55431 /* PRGTipView-dummy.m in Sources */,
-				E4691DF3C875DF257D7E101AA1F51BC9 /* PRGTipView.swift in Sources */,
-				0741A8A8A05B31445B794E3E9FE98B3F /* PRGTipViewConfiguration.swift in Sources */,
-				45B863C8A98E856CF4B909538894B467 /* Pulse.swift in Sources */,
-				720F055B1834C0241C623FF9E376FB8C /* PulseLayer.swift in Sources */,
+				B9495B110738B8588AC86E034FEE2814 /* Pods-PRGTipView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		42791D4B5F080ACFD04DF44CED211F5A /* PBXTargetDependency */ = {
+		0C0BD9AFCC245053CCEA75862563D934 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PRGTipView;
 			target = 8514FC466B5B9BB89AB70702905B76C1 /* PRGTipView */;
-			targetProxy = 26FBB3991ACDEFA8313311DA7D3680BC /* PBXContainerItemProxy */;
+			targetProxy = 58B5D7B668A1838FA8E5764A3D9A087A /* PBXContainerItemProxy */;
 		};
-		F81C853A029B6A84FCC31497ED417493 /* PBXTargetDependency */ = {
+		BBEB6BFB84414B70F9BBE8F8F937D9B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PRGTipView_Example";
 			target = BE1D415EE88EF5A76DFC866BD459CB56 /* Pods-PRGTipView_Example */;
-			targetProxy = B9825DDDA5E1BCD8BCFB9F7EC695452C /* PBXContainerItemProxy */;
+			targetProxy = 49105A4F69CCEFE4B1C8C06F4F329C12 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4AF474650ADDA79FC9F53B984CE6E246 /* Debug */ = {
+		1A8716BDC40153876ED7EBF8894C8196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6618207AA750104F8AD7396C0A88508 /* Pods-PRGTipView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PRGTipView_Tests/Pods-PRGTipView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PRGTipView_Tests/Pods-PRGTipView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31AFB2A8344DD4163FD01815CAA865C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C2A48BEE14CADC3C4FF8CB93A87D8BF /* Pods-PRGTipView_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -480,140 +508,11 @@
 			};
 			name = Debug;
 		};
-		57CC5FFFEE6C4580B9995534F1304D13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90618F61FDAE2ECF3AA500D1982051BF /* PRGTipView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PRGTipView/PRGTipView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PRGTipView/PRGTipView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PRGTipView/PRGTipView.modulemap";
-				PRODUCT_MODULE_NAME = PRGTipView;
-				PRODUCT_NAME = PRGTipView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		932C832EA60475A87C1514A0A0B649C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52B41F66AAF74ED297A14BC845B3CE05 /* PRGTipView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PRGTipView/PRGTipView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PRGTipView/PRGTipView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PRGTipView/PRGTipView.modulemap";
-				PRODUCT_MODULE_NAME = PRGTipView;
-				PRODUCT_NAME = PRGTipView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9DFFFE261349C359DB58FFAC06115F1E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D70F62E493A9B917EE8EA825DC834C18 /* Pods-PRGTipView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PRGTipView_Example/Pods-PRGTipView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PRGTipView_Example/Pods-PRGTipView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AC957C35E2454E910E45F60A6873722E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BE2C1E5B2EC9737D4CAC42DF641C4CE /* Pods-PRGTipView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PRGTipView_Example/Pods-PRGTipView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PRGTipView_Example/Pods-PRGTipView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -636,6 +535,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -670,10 +570,104 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		45B07D9F80B3346AF34F172712068880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B41F66AAF74ED297A14BC845B3CE05 /* PRGTipView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PRGTipView/PRGTipView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PRGTipView/PRGTipView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PRGTipView/PRGTipView.modulemap";
+				PRODUCT_MODULE_NAME = PRGTipView;
+				PRODUCT_NAME = PRGTipView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50659659E4DF01C890DDD3C6727A3AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90618F61FDAE2ECF3AA500D1982051BF /* PRGTipView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PRGTipView/PRGTipView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PRGTipView/PRGTipView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PRGTipView/PRGTipView.modulemap";
+				PRODUCT_MODULE_NAME = PRGTipView;
+				PRODUCT_NAME = PRGTipView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55B99F64EDC7A13640B2C8B156C8E74F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE2C1E5B2EC9737D4CAC42DF641C4CE /* Pods-PRGTipView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PRGTipView_Example/Pods-PRGTipView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PRGTipView_Example/Pods-PRGTipView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -696,6 +690,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -734,12 +729,11 @@
 			};
 			name = Debug;
 		};
-		E7EF667F06C2AB9705029D83F0B19C9B /* Release */ = {
+		E3E67E2BCD371099F591131D98E08821 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6618207AA750104F8AD7396C0A88508 /* Pods-PRGTipView_Tests.release.xcconfig */;
+			baseConfigurationReference = D70F62E493A9B917EE8EA825DC834C18 /* Pods-PRGTipView_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -748,12 +742,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PRGTipView_Tests/Pods-PRGTipView_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PRGTipView_Example/Pods-PRGTipView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PRGTipView_Tests/Pods-PRGTipView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PRGTipView_Example/Pods-PRGTipView_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -774,35 +768,35 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		614DA4EE7534DEE42853FA3CA59DFCAA /* Build configuration list for PBXNativeTarget "PRGTipView" */ = {
+		4A53B7595AA93143C639F6A6EBE6B9FA /* Build configuration list for PBXNativeTarget "PRGTipView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57CC5FFFEE6C4580B9995534F1304D13 /* Debug */,
-				932C832EA60475A87C1514A0A0B649C4 /* Release */,
+				50659659E4DF01C890DDD3C6727A3AF5 /* Debug */,
+				45B07D9F80B3346AF34F172712068880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6513B08EB8088D8DB1126454B333FE0E /* Build configuration list for PBXNativeTarget "Pods-PRGTipView_Example" */ = {
+		9789921036452384D794A3DB15E6EEA4 /* Build configuration list for PBXNativeTarget "Pods-PRGTipView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AC957C35E2454E910E45F60A6873722E /* Debug */,
-				9DFFFE261349C359DB58FFAC06115F1E /* Release */,
+				55B99F64EDC7A13640B2C8B156C8E74F /* Debug */,
+				E3E67E2BCD371099F591131D98E08821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E411CAE103D1867FB94FB5D826CAB369 /* Build configuration list for PBXNativeTarget "Pods-PRGTipView_Tests" */ = {
+		F80F4C56ED315F9FF6C4B6F0DB352A65 /* Build configuration list for PBXNativeTarget "Pods-PRGTipView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AF474650ADDA79FC9F53B984CE6E246 /* Debug */,
-				E7EF667F06C2AB9705029D83F0B19C9B /* Release */,
+				31AFB2A8344DD4163FD01815CAA865C7 /* Debug */,
+				1A8716BDC40153876ED7EBF8894C8196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
